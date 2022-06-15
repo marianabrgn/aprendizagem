@@ -1,2 +1,1 @@
-# teste1
-Meu primeiro repositório
+Repositório destinado a projetos e desafios de bootcamps.
