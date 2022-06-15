@@ -1,1 +1,1 @@
-Repositório destinado a projetos e desafios de bootcamps.
+Repositório destinado aos desafios e exercícios de bootcamps.
