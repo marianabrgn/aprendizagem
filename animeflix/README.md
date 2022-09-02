@@ -1,1 +1,1 @@
-Adaptação do projeto de recriação da página inicial do Netflix proposto em bootcamp da dio.me(Digital Innovation One). [Repositório](https://github.com/felipeAguiarCode/netflix-clone) de referência. Para ver o resultado, [clique aqui](https://github.io/marianabrgn/aprendizagem/animeflix/).
+Adaptação do projeto de recriação da página inicial do Netflix proposto em bootcamp da dio.me(Digital Innovation One). [Repositório](https://github.com/felipeAguiarCode/netflix-clone) de referência. Para ver o resultado, [clique aqui](https://marianabrgn.github.io/aprendizagem/animeflix/).
