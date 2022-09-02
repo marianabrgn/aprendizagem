@@ -1,0 +1,112 @@
+:root {
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: var(--preto);
+  font-family: 'Arial', Times, serif;
+  color: #fff;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 10px;
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAAA;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+.serie-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%), url('https://www.themoviedb.org/t/p/original/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg');
+
+  height: 100%;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.serie-principal .descricao{
+  margin: 40px 0px;
+
+}
+
+.serie-principal .titulo{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.botao{
+  background-color: rgba(0, 0, 0,.50);
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+  margin: 30px 0;
+}
+
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+
+.botao i{
+  margin-right: 8px;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.serie-principal .container{
+  width: 70%;
+}
+
+.box-serie{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel-serie{
+  margin-top: 20px;
+}
+
+.descricao-anime-container {
+  z-index: -1;
+  position: absolute;
+  height: 100vp;
+  width: 100wp;
+  background-color: #1b1717;
+}
