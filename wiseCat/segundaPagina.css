@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+}
+
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo h1{
+  color: #72005F;
+  font-weight: 800;
+  font-size: 3.1rem;
+}
+
+.titulo p {
+  color: #d8bdad;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.message-container {
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: #e6e1de;
+  margin: auto;
+}
+
+#image-container {
+  display: flex;
+  width: 95%;
+  height: 95%;
+  align-items: center;
+  justify-content: end;
+}
+
+#image-container img {
+  border-radius: 10px;
+  width: 99%;
+  height: 70vh;
+}
+
+#advice-container {
+  color: #72005F;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+}
+
+#outro-conselho {
+  background-color: #ffeadd;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #72005F;
+  font-weight: bold;
+  align-self: center;
+}
+
+#outro-conselho:hover{
+  background-color: #d8bdad;
+}
