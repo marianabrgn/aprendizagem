@@ -65,3 +65,7 @@ input::placeholder {
 .attribution {
 
 }
+
+cartao {
+  z-index: 4;
+}
